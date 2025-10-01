@@ -8,13 +8,14 @@ body {
 
 }
 
+/* para todos los parrafos del documento */
 p{
   font-family: Montserrat;
   color: #9c5457;
   font-size:14px;
   
 }
-
+/* estilo de la barra inicial */
 .barra{
   background: rgba(204, 130, 120);
   background:linear-gradient(270deg,#ecab5f,#cc8278,#cc8278,#a16491 );
@@ -35,6 +36,7 @@ p{
   column-gap: 0.5px;
 }
 
+
 .Titulo{
   color:#633863;
   font-family:"Yeseva One";
@@ -45,7 +47,7 @@ p{
   align-self: flex-start;
 }
 
-
+/* estilo de los botones de hoja de vida y portafolio */
 .Boton1,.Boton2{
   font-family:"Yeseva One";
   color: #ac5c42;
@@ -82,7 +84,7 @@ p{
   
 }
 
-
+/* para organizar los espacios del parrafo de "acerca de mi" */
 .Cuadro-info{
   display:flex;
   margin: 20px;
@@ -125,6 +127,7 @@ p{
   margin
 }
 
+/* Si no le pongo margin a esto, las imagenes van a estar mal organizadas */
   .imagenes
   {
     margin-bottom: 111px
