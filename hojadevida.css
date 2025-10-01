@@ -36,7 +36,7 @@ p{
   column-gap: 0.5px;
 }
 
-  
+  /* Si no hago un div, por alguna razon los items de toda la página agrandar toda la página */
   .todo{
     align-items:center;
     justify-content:center;
@@ -51,7 +51,7 @@ p{
   align-self: flex-start;
 }
 
-
+ /* botones portafolio y hoja de vida */
 .Boton1,.Boton2{
   font-family:"Yeseva One";
   color: #ac5c42;
@@ -69,7 +69,7 @@ p{
   ;
 }
 
-
+ /* esto es para la foto mia y los titulos de mis nombres */
 .hoja-de-vida{
   display:flex;
   align-items:center;
@@ -85,7 +85,7 @@ p{
    margin-left: 200px;
   margin-left: 17%;
 }
-
+/* botones donde van items de cualidades como "liderazgo", etc */
 .Boton{
   font-family:"Yeseva One";
   color: #ac5c42;
@@ -292,7 +292,8 @@ p{
   text-align: center;
   margin: 20px 20px
 }
-
+/* etuve que ponerle un estilo diferente a este por que tenia un problema de espacios 
+con los otros items*/
 .titulocontacto{
   font-family: "Pacifico";
   margin: 20px;
