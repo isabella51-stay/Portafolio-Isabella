@@ -1,0 +1,758 @@
+/* */
+@media (min-width:600px){
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  background-color:#efd9cd;
+  /*background-size: 400% 400%;*/
+
+}
+
+p{
+  font-family: Montserrat;
+  color: #9c5457;
+  font-size:20px;
+  
+}
+
+.barra{
+  background: rgba(204, 130, 120);
+  background:linear-gradient(270deg,#ecab5f,#cc8278,#cc8278,#a16491 );
+          backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+          /*max-width: 2550px;*/
+          width: 100%;
+          /*margin: 0 auto;
+          /*pading: 60px 20px;*/
+  align-content: center;
+          border-bottom-left-radius: 35px;
+          border-bottom-right-radius: 35px;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+          margin-top: 0;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 0.5px;
+}
+
+  
+  .todo{
+    align-items:center;
+    justify-content:center;
+  }
+.Titulo{
+  color:#633863;
+  font-family:"Yeseva One";
+  font-size:3em;
+  top:0%;
+  margin-top:5px;
+  margin-left:20px;
+  align-self: flex-start;
+}
+
+
+.Boton1,.Boton2{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:1.em;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 200px;
+  height: 50%;
+  aling-items: center;
+  ;
+}
+
+
+.hoja-de-vida{
+  display:flex;
+  align-items:center;
+  background: linear-gradient(270deg, 
+  rgba(228, 180, 182, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(192, 120, 255, 0.3),
+  rgba(239, 217, 205, 0.5));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 60%;
+  height: 30em;
+   margin-left: 200px;
+  margin-left: 17%;
+}
+
+.Boton{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:15px;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 200px;
+  height: 50%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton3{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:15px;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 250px;
+  height: 50%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton4{
+  font-family:"Yeseva One";
+  color: #6e3b9c;
+  background: rgba(133, 82, 179,0.4);
+  text-align: center;
+  font-size:15px;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 600px;
+  height: 50%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton5{
+  font-family:"Yeseva One";
+  color: #964144;
+  background: rgba(171, 84, 87,0.4);
+  text-align: center;
+  font-size:15px;
+  margin:8px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 150px;
+  height: 34%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton6{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:12px;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 320px;
+  height: 50%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton7{
+  font-family:"Yeseva One";
+  color: #6e3b9c;
+  background: rgba(133, 82, 179,0.4);
+  text-align: center;
+  font-size:12px;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 300px;
+  height: 50%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Info-1{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(247, 191, 116, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(247, 191, 116, 0.3),
+  rgba(247, 191, 116, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 1050px;
+  margin-left: 200px;
+  margin-left: 15%;
+  height: 200px;
+}
+
+.Info-2{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(192, 120, 255, 0.5), 
+  rgba(192, 120, 255, 0.4),
+  rgba(192, 120, 255, 0.3),
+  rgba(192, 120, 255, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 1050px;
+  margin-left: 200px;
+  margin-left: 15%;
+  height: 270px;
+}
+
+.Info-3{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(224, 119, 123, 0.5), 
+  rgba(224, 119, 123, 0.4),
+  rgba(224, 119, 123, 0.3),
+  rgba(224, 119, 123, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+   width: 1050px;
+  margin-left: 200px;
+  margin-left: 15%;
+  height: 320px;
+}
+
+.Info-4{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(247, 191, 116, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(247, 191, 116, 0.3),
+  rgba(247, 191, 116, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+   width: 1050px;
+  margin-left: 200px;
+  margin-left: 15%;
+  height: 270px;
+}
+
+.Info-5{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(192, 120, 255, 0.5), 
+  rgba(192, 120, 255, 0.4),
+  rgba(192, 120, 255, 0.3),
+  rgba(192, 120, 255, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+   width: 1050px;
+  margin-left: 200px;
+  margin-left: 15%;
+  height: 270px;
+}
+
+.cualidades{
+  text-align: center;
+  margin: 20px 20px
+}
+
+.titulocontacto{
+  font-family: "Pacifico";
+  margin: 20px;
+  font-size: 40px;
+  margin-top: 00px;
+  color:#633863; 
+}
+  
+  .titulo{
+  font-family: "Pacifico";
+  margin: 20px;
+  font-size: 40px;
+  color:#633863; 
+}
+  
+  .titulonombres{
+  font-family: "Pacifico";
+  margin: 20px;
+  font-size: 60px;
+  margin-top: 00px;
+  color:#633863; 
+}
+
+.titulo2{
+  font-family: "Pacifico";
+  font-size: 35px;
+  
+  
+}
+
+.FUENTE{
+  font-family:"Handlee";
+  font-size: 60px
+}
+
+.FUENTEE{
+  font-family:"Handlee";
+  font-size: 40px
+}
+
+.apellidos{
+  margin-left: 100px;
+  margin-bottom:30px;
+}
+
+
+
+img{
+  display:flex-start;
+  size:50;
+  border-radius:1550px;
+}
+
+.Contacto{
+  align-items: center;
+}
+
+.imagen{
+  display: flex;
+}
+.imagen1{
+  height:400px ;
+}
+  
+.imagen2{
+  margin-left:400px;
+  margin-right:100;
+  height:100px ;
+  margin-bottom: 290px;
+}
+
+.imagen3{
+  margin-left:100px;
+  margin-right:50;
+  height:250px ;
+  margin-top: 0px;
+}
+
+
+
+.titulohab{
+   font-family: "Pacifico";
+  margin: 1px;
+  font-size: 40px;
+  margin-top: 00px;
+  text-align:center;
+  margin-right: 100px;
+  margin-left:70px;
+  color:#633863;
+}
+}
+
+@media(max-width:600px) {
+  body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color:#efd9cd;
+  background-size: 100% 100%;
+
+}
+
+p{
+  font-family: Montserrat;
+  color: #9c5457;
+  font-size:10px;
+  
+}
+
+.barra{
+  background: rgba(204, 130, 120);
+  background:linear-gradient(270deg,#ecab5f,#cc8278,#cc8278,#a16491 );
+          backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+          /*max-width: 2550px;*/
+          width: 100%;
+          /*margin: 0 auto;
+          /*pading: 60px 20px;*/
+  align-items: baseline;
+          border-bottom-left-radius: 35px;
+          border-bottom-right-radius: 35px;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+          margin-top: 0;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 0.5px;
+}
+
+.Boton1{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:0.9em;
+  margin:20px;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 100px;
+  height: 50%;
+  aling-items: center;
+  ;
+}
+  
+.Boton2{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:0.9em;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 100px;
+  height: 60%;
+  aling-items: center;
+  ;
+}
+  
+.Titulo{
+  color:#633863;
+  font-family:"Yeseva One";
+  font-size:2em;
+  margin-top:5px;
+ ;
+  align-self: flex-start;
+  margin-left: 20%;
+}
+  
+  .hoja-de-vida{
+  align-items: center;
+    justify content: center;
+  background: linear-gradient(270deg, 
+  rgba(228, 180, 182, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(192, 120, 255, 0.3),
+  rgba(239, 217, 205, 0.5));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 50%;
+  height: 60%;
+}
+
+.Boton{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:12px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 25%;
+  height: 15%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton3{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:11px;
+  border: none;
+  border-radius:500px;
+  width: 39%;
+  height: 15%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton4{
+  font-family:"Yeseva One";
+  color: #6e3b9c;
+  background: rgba(133, 82, 179,0.4);
+  text-align: justify;
+  font-size:11px;
+  border: none;
+  border-radius:50px;
+  width: 62%;
+  height: 35%;
+  aling-items: center;
+  text-align:center;
+  
+  ;
+}
+
+.Boton5{
+  font-family:"Yeseva One";
+  color: #964144;
+  background: rgba(171, 84, 87,0.4);
+  text-align: center;
+  font-size:13px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 30%;
+  height: 30%;
+  
+}
+
+.Boton6{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:10.5px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 34%;
+  height: 15%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Boton7{
+  font-family:"Yeseva One";
+  color: #6e3b9c;
+  background: rgba(133, 82, 179,0.4);
+  text-align: center;
+  font-size:10.5px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 34%;
+  height: 15%;
+  aling-items: center;
+  text-align:center;
+  ;
+}
+
+.Info-1{
+  align-items:center;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(247, 191, 116, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(247, 191, 116, 0.3),
+  rgba(247, 191, 116, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 80%;
+  margin-left: 12%;
+  height: 24%;
+
+}
+
+.Info-2{
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  margin: 30px 550px;
+  background: linear-gradient(270deg, 
+  rgba(192, 120, 255, 0.5), 
+  rgba(192, 120, 255, 0.4),
+  rgba(192, 120, 255, 0.3),
+  rgba(192, 120, 255, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 80%;
+  margin-left: 12%;
+  height: 24%;
+}
+
+.Info-3{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  align-content:center;
+  justify-content:center;
+  background: linear-gradient(270deg, 
+  rgba(224, 119, 123, 0.5), 
+  rgba(224, 119, 123, 0.4),
+  rgba(224, 119, 123, 0.3),
+  rgba(224, 119, 123, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 250px;
+  width: 80%;
+  margin-left: 12%;
+  height: 32%;
+  flex-wrap:wrap;
+}
+
+.Info-4{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  align-content:center;
+  justify-content:center;
+  background: linear-gradient(270deg, 
+  rgba(247, 191, 116, 1), 
+  rgba(247, 191, 116, 0.7),
+  rgba(247, 191, 116, 0.3),
+  rgba(247, 191, 116, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 80%;
+  margin-left: 12%;
+  height: 40%;
+  flex-wrap:wrap;
+}
+
+.Info-5{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  align-content:center;
+  justify-content:center;
+  background: linear-gradient(270deg, 
+  rgba(192, 120, 255, 0.5), 
+  rgba(192, 120, 255, 0.4),
+  rgba(192, 120, 255, 0.3),
+  rgba(192, 120, 255, 0.1));
+  backdrop-filter: blur(6px);
+  border-radius: 1000px;
+  width: 80%;
+  margin-left: 12%;
+  height: 35%;
+  flex-wrap:wrap;
+}
+
+  
+
+.titulo{
+  font-family: "Pacifico";
+  font-size: 200%;
+  color:#633863; 
+  text-align: center;
+  margin: 10px 100px;
+  display: flex;
+}
+
+  
+  .titulohab{
+   font-family: "Pacifico";
+  margin: 2px;
+  font-size: 170%;
+  color:#633863;
+    margin-top: 30px;
+}
+  
+  .cualidades{
+    margin-top: 26px;
+  }
+  
+  .titulocontacto{
+  font-family: "Pacifico";
+  font-size: 290%;
+  color:#633863; 
+  text-align: justify;
+  margin: 2px 100px;
+}
+
+.titulo2{
+  font-family: "Pacifico";
+  font-size: 30px;
+  
+  
+}
+
+   .titulonombres{
+  font-family: "Pacifico";
+  margin: 20px;
+  font-size: 30px;
+  color:#633863; 
+}
+
+.nombres{
+  font-size: 120%;
+  align-content: center;
+  justify-content: center;
+  text-aling: center;
+ 
+}
+
+.FUENTE{
+  font-family:"Handlee";
+  font-size: 35px
+}
+
+.FUENTEE{
+  font-family:"Handlee";
+  font-size: 25px
+}
+
+img{
+  border-radius:100%;
+  height: 25%
+    
+}
+  
+  .imagen{
+    margin-left: -150%;
+      margin-right:15%;
+  }
+  
+ 
+
+.Contacto{
+  align-items: center;
+}
+
+  
+
+
+
+
+
+
+
+}
+

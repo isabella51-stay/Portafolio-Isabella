@@ -1,0 +1,269 @@
+@media (min-width:600px){
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color:#efd9cd;
+  background-size: 400% 450%;
+
+}
+
+p{
+  font-family: Montserrat;
+  color: #9c5457;
+  font-size:14px;
+  
+}
+
+.barra{
+  background: rgba(204, 130, 120);
+  background:linear-gradient(270deg,#ecab5f,#cc8278,#cc8278,#a16491 );
+          backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+          /*max-width: 2550px;*/
+          width: 100%;
+          /*margin: 0 auto;
+          /*pading: 60px 20px;*/
+  align-content: center;
+          border-bottom-left-radius: 35px;
+          border-bottom-right-radius: 35px;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+          margin-top: 0;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 0.5px;
+}
+
+.Titulo{
+  color:#633863;
+  font-family:"Yeseva One";
+  font-size:3em;
+  top:0%;
+  margin-top:5px;
+  margin-left:20px;
+  align-self: flex-start;
+}
+
+
+.Boton1,.Boton2{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:1.em;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 200px;
+  height: 50%;
+  aling-items: center;
+  ;
+}
+
+.Titulo2{
+  color: #592a4d;
+  font-family:"Great Vibes";
+  font-size:85px ;
+  margin-left: 
+}
+
+
+
+.texto{
+  margin:300px;
+  margin-left: -150px;
+  text-align: justify;
+  height: 30px;
+  width: 500px;
+  font-size: 10px;
+  
+}
+
+
+.Cuadro-info{
+  display:flex;
+  margin: 20px;
+  
+  height:12%;
+ 
+  background: linear-gradient(270deg, 
+  rgba(228, 180, 182, 1), 
+  rgba(228, 180, 182, 0.7),
+  rgba(228, 180, 182, 0.3),
+  rgba(239, 217, 205, 0.5));
+  backdrop-filter: blur(6px);
+  border-radius:800px;  
+  margin-bottom: 30px;
+}
+
+.imagen {
+  text-align: left;
+  margin-right: 250px;
+  height: 450px;
+}
+
+.imagen2{
+  height: 500px;
+  text-align: left;
+  display:flex;
+  margin-left: 100px;
+}
+
+.imagen3{
+  height: 150px;
+  margin-bottom:100px;
+  margin-top:60px;
+  margin-left: 550px;
+}
+
+.imagen4{
+  margin-right: 300px;
+  margin-left:30px;
+  margin
+}
+
+  .imagenes
+  {
+    margin-bottom: 111px
+  }
+  
+}
+
+@media (max-width:600px){
+body {
+  flex-wrap:wrap;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color:#efd9cd;
+  background-size: 400% 450%;
+
+}
+
+p{
+  font-family: Montserrat;
+  color: #9c5457;
+  font-size:20px;
+  
+}
+
+.barra{
+  background: rgba(204, 130, 120);
+  background:linear-gradient(270deg,#ecab5f,#cc8278,#cc8278,#a16491 );
+          backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+          /*max-width: 2550px;*/
+          width: 100%;
+          /*margin: 0 auto;
+          /*pading: 60px 20px;*/
+  align-items: baseline;
+          border-bottom-left-radius: 35px;
+          border-bottom-right-radius: 35px;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+          margin-top: 0;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 0.5px;
+}
+
+.Boton1{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:0.9em;
+  margin:20px;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 100px;
+  height: 50%;
+  aling-items: center;
+  ;
+}
+  
+.Boton2{
+  font-family:"Yeseva One";
+  color: #ac5c42;
+  background-color :#ecab5f;
+  text-align: center;
+  font-size:0.9em;
+  margin:20px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius:500px;
+  width: 100px;
+  height: 60%;
+  aling-items: center;
+  ;
+}
+  
+ .Titulo{
+  color:#633863;
+  font-family:"Yeseva One";
+  font-size:2em;
+  margin-top:5px;
+ ;
+  align-self: flex-start;
+  margin-left: 20%;
+}
+
+.Titulo2{
+  align-content: flex-start;
+  color: #592a4d;
+  font-family:"Great Vibes";
+  text-align: center;
+  font-size:85px ;
+}
+
+
+
+.texto{
+  margin:90px 90px;
+  margin-left: 10px;
+  text-align: justify;
+  
+}
+
+
+
+
+
+
+.imagen {
+  margin-left: -5%;
+  height: 13%;
+  margin-right:150%;
+}
+
+.imagen2{
+  align-content: flex-end;
+  height: 30%;
+  text-align: left;
+  display:flex;
+  margin-left: 8%;
+}
+
+.imagen3{
+  align-content: flex-start;
+  justify-content:flex-start;
+  height: 150px;
+  margin-bottom:100px;
+  gap:10px;
+}
+
+.imagen4{
+  margin-right: 30px;
+  margin-left:300px;
+  gap:10px;
+  justify-items: end; 
+}
+
+
+}
