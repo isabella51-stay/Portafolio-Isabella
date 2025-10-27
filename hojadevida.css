@@ -40,6 +40,7 @@ p{
   .todo{
     align-items:center;
     justify-content:center;
+    display: grid;
   }
 .Titulo{
   color:#633863;

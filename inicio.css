@@ -1,11 +1,15 @@
-@media (min-width:600px){
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background-color:#efd9cd;
-  background-size: 400% 450%;
+  background-color:#efd9cd !important;
+}
+@media (min-width:600px){
 
+
+.todo{
+    align-items:center;
+    justify-content:center;
+    display: grid;
 }
 
 /* para todos los parrafos del documento */
@@ -35,6 +39,7 @@ p{
   row-gap: 10px;
   column-gap: 0.5px;
 }
+
 
 
 .Titulo{
@@ -107,11 +112,10 @@ p{
   height: 450px;
 }
 
-.imagen2{
+.PRESENTACIOON{
   height: 500px;
   text-align: left;
   display:flex;
-  margin-left: 100px;
 }
 
 .imagen3{

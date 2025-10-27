@@ -8,6 +8,11 @@ body {
 
 }
 
+.todo{
+    align-items:center;
+    justify-content:center;
+    display: grid;
+}
 p{
   font-family: Montserrat;
   color: #9c5457;
